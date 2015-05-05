@@ -1,0 +1,79 @@
+body{
+
+height : 480px;
+}
+#map {
+height: 100%;
+position: relative;
+}
+
+#button {
+position: absolute;
+float: right;
+right: 1%;
+top: 1%;
+z-index: 20;
+}
+.btype{
+
+font-family: Helvetica Neue;
+font-size: 18px;
+}
+.leaflet-container a {
+  color: #333333;
+  text-decoration: none;
+}
+
+#buttonbar{
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  border: #cccccc thin solid;
+  }
+  
+ .leaflet-container a: hover{
+ color: #756ae8;
+ }
+ 
+ #intlegend{
+ position: absolute;
+ z-index: 20;
+ float: right;
+
+ width: 150px;
+ height: 160px;
+ top: 65%;
+right: 5%;
+
+ }
+  #hhlegend{
+ position: absolute;
+ z-index: 20;
+ float: right;
+
+ width: 150px;
+ height: 160px;
+ top: 65%;
+right: 5%;
+
+ }
+ #inset{
+ position: absolute;
+ z-index: 20;
+ float: left;
+ width: 240px;
+ height: 150px;
+ top: 68%;
+left: 2%;
+border: 1px solid #000000;
+ }
+  #poplegend{
+ position: absolute;
+ z-index: 20;
+ float: right;
+/* background-image: url('images/pop.PNG');*/
+ width: 150px;
+ height: 160px;
+ top: 65%;
+right: 5%;
+/*background-size: 100%;*/
+ }
