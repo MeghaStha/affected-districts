@@ -45,6 +45,17 @@ font-size: 18px;
 right: 5%;
 
  }
+  #legend{
+ position: absolute;
+ z-index: 20;
+ float: right;
+
+ width: 150px;
+ height: 160px;
+ top: 65%;
+right: 5%;
+
+ }
   #hhlegend{
  position: absolute;
  z-index: 20;
