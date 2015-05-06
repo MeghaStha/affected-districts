@@ -1,11 +1,18 @@
 $(document).ready(function(){
 var map = new L.map('map').setView([27.8006, 85.3934],8);
+
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18
 }).addTo(map);
 L.tileLayer('https://{s}.tiles.mapbox.com/v4/kll.m3i8i8ii/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia2xsIiwiYSI6IktVRUtfQnMifQ.GJAHJPvusgK_f0NsSXS8QA',{
 		maxZoom: 18
 }).addTo(map);
+var epicenterIcon = L.icon({
+    iconUrl: 'js/image/epicenter.png',
+    iconSize:     [30, 28], // size of the icon
+   
+ });
+ L.marker([28.210368, 84.742003], {icon: epicenterIcon}).addTo(map);
 
     $("#intSubmit").click(function(){
  L.tileLayer('https://{s}.tiles.mapbox.com/v4/kll.m3i8i8ii/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia2xsIiwiYSI6IktVRUtfQnMifQ.GJAHJPvusgK_f0NsSXS8QA',{
