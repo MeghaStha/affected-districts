@@ -88,3 +88,8 @@ border: 1px solid #000000;
 right: 5%;
 /*background-size: 100%;*/
  }
+ .trans{
+ opacity : 0.6;
+ filter : alpha(opacity = 60);
+ 
+ }

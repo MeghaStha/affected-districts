@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-70.714286"
+     inkscape:cx="-516.42857"
      inkscape:cy="520"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -65,10 +65,11 @@
        d="m 402.85715,445.21933 a 47.142857,47.142857 0 1 1 -0.0457,-2.07503"
        sodipodi:start="0"
        sodipodi:end="6.2391553"
-       sodipodi:open="true" />
+       sodipodi:open="true"
+       transform="matrix(0.3383954,0,0,0.3383954,201.05649,271.702)" />
     <path
        sodipodi:type="arc"
-       style="fill:none;stroke:#e81707;stroke-width:30;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round"
+       style="fill:none;stroke:#e81707;stroke-width:18;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path3787"
        sodipodi:cx="350"
        sodipodi:cy="446.64789"
@@ -77,6 +78,10 @@
        d="m 454.28571,446.64789 a 104.28571,100 0 1 1 -0.10672,-4.52284"
        sodipodi:start="0"
        sodipodi:end="6.2379415"
-       sodipodi:open="true" />
+       sodipodi:open="true"
+       inkscape:export-filename="C:\xampp1\htdocs\topublish\images\epicenter.png"
+       inkscape:export-xdpi="19.816513"
+       inkscape:export-ydpi="19.816513"
+       transform="matrix(0.25262422,0,0,0.26345098,233.0101,304.69236)" />
   </g>
 </svg>
