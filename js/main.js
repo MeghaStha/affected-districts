@@ -4,7 +4,7 @@ var map = new L.map('map').setView([27.8006, 85.3934],8);
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18
 }).addTo(map);
-L.tileLayer('https://{s}.tiles.mapbox.com/v4/kll.districts/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia2xsIiwiYSI6IktVRUtfQnMifQ.GJAHJPvusgK_f0NsSXS8QA').addTo(map);
+L.tileLayer('https://{s}.tiles.mapbox.com/v4/kll.district/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia2xsIiwiYSI6IktVRUtfQnMifQ.GJAHJPvusgK_f0NsSXS8QA').addTo(map);
 var layers = [
  L.tileLayer('https://{s}.tiles.mapbox.com/v4/kll.m3i8i8ii/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia2xsIiwiYSI6IktVRUtfQnMifQ.GJAHJPvusgK_f0NsSXS8QA',{transparent : true, opacity : 0.8}),
  L.tileLayer ('http://{s}.tiles.mapbox.com/v4/kll.popden/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoia2xsIiwiYSI6IktVRUtfQnMifQ.GJAHJPvusgK_f0NsSXS8QA',{transparent : true, opacity : 0.8}),
